@@ -1,6 +1,9 @@
 name: MeGold Crypto Notification Bot
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     # 09:00 VN -> 02:00 UTC
     # 13:00 VN -> 06:00 UTC
